@@ -19,7 +19,7 @@ body{
     border: solid yellow;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 20px
 }
 
 
@@ -48,7 +48,7 @@ body{
 
 .orange{
     background: orangered;
-    padding: 0 20px;
+    padding: 8px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -58,9 +58,9 @@ body{
 }
 
 .orange img{
-    width: 30%;
+    width: 32%;
     border: solid orange;
-    margin-bottom: 12px;
+    margin: 12px 0;
 }
 
 .blue{
@@ -74,19 +74,17 @@ body{
 }
 
 .violet{
-    width: 100%;
     background: violet;
-    padding: 8px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .card{
-    width: 48%;
+    width: 49%;
     background: fuchsia;
     margin-bottom: 12px;
     text-align: center;
