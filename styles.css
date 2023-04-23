@@ -49,3 +49,41 @@ body{
     border: solid orange;
     margin-bottom: 12px;
 }
+
+.blue{
+    background: blue;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.violet{
+    background: violet;
+    padding: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.card{
+    width: 48%;
+    background: fuchsia;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card span{
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 0 6px;
+    background: black;
+}
