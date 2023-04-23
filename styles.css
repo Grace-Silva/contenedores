@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    background: #413d3d;
+}
+
+.inner-width{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.red{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: red;
+    padding: 20px;
+    gap: 20px;
+}
+
+.pink{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+    background: pink;
+    padding: 8px;
+}
+
+.orange{
+    background: orangered;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.orange img{
+    width: 30%;
+    border: solid orange;
+    margin-bottom: 12px;
+}
